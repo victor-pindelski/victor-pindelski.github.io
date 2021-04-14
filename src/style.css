@@ -1,0 +1,32 @@
+img {
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    user-select: none;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 5rem;
+    color: #003040;
+    user-select: none;
+}
+
+p {
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: #707070;
+    user-select: none;
+}
+
+
+@media only screen
+   and (max-width : 768px) {
+    #content-container {
+        display: flex;
+        flex-direction: column;
+    }
+    h1 {
+        padding-top: 100px;
+    }
+}
